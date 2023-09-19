@@ -14,7 +14,7 @@ public class Passports {
 
     String getByLastName(String lastName) {
         StringBuilder stringBuilder = new StringBuilder();
-        for (Map.Entry entry : map.entrySet()) {
+        for (Map.Entry<String, String> entry : map.entrySet()) {
             if (entry.getValue().equals(lastName)) {
                 stringBuilder.append(entry.getKey())
                         .append(" : ")
