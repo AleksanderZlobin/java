@@ -9,8 +9,10 @@ public class Main {
         };
 
         Obstacles[] obstacles = {
-                new Wall(100),
+                new Wall(70),
                 new Treadmill(1200),
+                new Wall(150),
+                new Treadmill(1400)
         };
 
         for (Participants participant : participants) {

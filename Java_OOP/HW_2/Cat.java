@@ -15,7 +15,7 @@ public class Cat implements Participants {
     @Override
     public void run(int length) {
         if (isActive) {
-            System.out.printf("Cat %s run %d\n", maxLength < length ? "not" : "", length);
+            System.out.printf("Кот %s пробежал дорожку длиною %d\n", maxLength < length ? "не" : "", length);
         }
         if (maxLength < length)
             isActive = false;
@@ -24,7 +24,7 @@ public class Cat implements Participants {
     @Override
     public void jump(int height) {
         if (isActive) {
-            System.out.printf("Cat %s jump %d\n", maxHeight < height ? "not" : "", height);
+            System.out.printf("Кот %s перепрыгнул стену высотой %d\n", maxHeight < height ? "не" : "", height);
         }
         if (maxHeight < height)
             isActive = false;
