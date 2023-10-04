@@ -37,12 +37,13 @@ public class HashMap<K, V> implements Iterable<HashMap.Entity> {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        for (HashMap.Entity entity : get()) {
-            stringBuilder.append(entity.key);
-            stringBuilder.append(entity.value);
-            stringBuilder.append('\n');
-        }
-        return stringBuilder.toString();
+        for (Object key : keySet())
+        //for (HashMap.Entity entity : get()) {
+            
+            //stringBuilder.append(entity.key.toString()).append(": ").append(entity.value.toString()).append("n");
+            stringBuilder.append(key.toString()).append(": ").append(get(key).toString()).append("n")
+        }return stringBuilder.toString();
+
     }
 
     // region Публичные методы
