@@ -1,0 +1,12 @@
+окт. 16, 2023 11:40:56 AM Java_OOP.HW_7.CalcLogger createLog
+INFO: Программа запущена
+окт. 16, 2023 11:41:10 AM Java_OOP.HW_7.CalcLogger createLog
+INFO:  (3.0 + 2.0i) 
+окт. 16, 2023 11:41:19 AM Java_OOP.HW_7.CalcLogger createLog
+INFO: +
+окт. 16, 2023 11:41:19 AM Java_OOP.HW_7.CalcLogger createLog
+INFO:  (6.0 + 3.0i) 
+окт. 16, 2023 11:41:39 AM Java_OOP.HW_7.CalcLogger createLog
+INFO: *
+окт. 16, 2023 11:41:39 AM Java_OOP.HW_7.CalcLogger createLog
+INFO:  (7.0 + 3.0i) 
